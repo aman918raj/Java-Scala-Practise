@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="882c12c7-85c5-4b01-abaa-bd851a75e24c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/BasicCaseClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/BasicCaseClass.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/BasicClassCaseClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/BasicClassCaseClass.scala" afterDir="false" />
-    </list>
+    <list default="true" id="882c12c7-85c5-4b01-abaa-bd851a75e24c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
@@ -344,7 +341,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2832723" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2832723" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -361,7 +358,7 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.32965687" />
       <window_info anchor="bottom" id="SBT Console" order="8" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32959184" />
