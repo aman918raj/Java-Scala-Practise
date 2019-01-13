@@ -4,6 +4,9 @@ object BasicCaseClass extends App {
    * In case of case class if we dont define val or var with class variables then
    * it automatically treat it as val and also it implements Product and Serializable
    */
+  /*
+  * Limitation of case class: It can have only 22 members
+  * */
   case class Order(orderId:Int, orderDate:String, orderCustomerId:Int, orderStatus: String){
     println("I am inside Order Constructor")
   }

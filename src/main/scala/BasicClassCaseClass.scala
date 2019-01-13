@@ -12,7 +12,9 @@ class BankAccount {
       balance
     } else throw new Error("insufficient funds")
 }
-
+/*
+  * Limitation of case class: It can have only 22 members
+  * */
 case class Note(name: String, duration: String, octave: Int)
 
 object BasicClassCaseClass extends App {
