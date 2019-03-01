@@ -1,5 +1,19 @@
 object BasicScala {
 
+  /*
+  val evaluates when defined, def - when called
+  lazy val evaluates when called the first time
+  val evaluates when defined.
+
+def evaluates on every call,
+so performance could be worse than val for multiple calls.
+You'll get the same performance with a single call.
+And with no calls you'll get no overhead from def, so you can define it even if you will not use it in some branches.
+
+With a lazy val you'll get a lazy evaluation:
+you can define it even if you will not use it in some branches,
+and it evaluates once or never, but you'll get a little overhead from double check locking on every access to your lazy val
+   */
   def main(args:Array[String]){
 
     val s = "Hello World"
