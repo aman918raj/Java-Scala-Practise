@@ -4,6 +4,7 @@ class BankAccount {
 
   def deposit(amount: Int): Unit = {
     if (amount > 0) balance = balance + amount
+    return balance
   }
 
   def withdraw(amount: Int): Int =
@@ -14,8 +15,11 @@ class BankAccount {
 }
 /*
   * Limitation of case class: It can have only 22 members
-  * */
+  */
 case class Note(name: String, duration: String, octave: Int)
+
+case class Person(name:String)
+class PersonA(name:String)
 
 object BasicClassCaseClass extends App {
 
@@ -30,6 +34,8 @@ object BasicClassCaseClass extends App {
 
   val jackAccount = new BankAccount
   val bobAccount = new BankAccount
+  bobAccount.deposit(60)
+  println(bobAccount.withdraw(20))
   jackAccount == bobAccount
   println(jackAccount)
 
@@ -39,5 +45,18 @@ object BasicClassCaseClass extends App {
   d4 == cThree
 
   println(d4)
+
+  val x = Person("Aman")
+  val y = Person("Aman")
+  val bool = x==y
+
+  println(bool)
+
+  val a = new PersonA("Aman")
+  val b = new PersonA("Aman")
+
+  val bool2 = a==b
+
+  println(bool2)
 
 }
