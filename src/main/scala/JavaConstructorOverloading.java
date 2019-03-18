@@ -7,6 +7,7 @@ Compiler differentiates constructors on the basis of numbers of parameters, type
 
 public class JavaConstructorOverloading {
 
+
     JavaConstructorOverloading(String name){
         System.out.println("Constructor with one " +
                 "argument - String : " + name);
@@ -16,6 +17,23 @@ public class JavaConstructorOverloading {
         System.out.println("Constructor with two arguments : " +
                 " String and Integer : " + name + " "+ id);
 
+    }
+
+    public void methodOverloading(String name){
+        System.out.println(name);
+    }
+
+    public void methodOverloading(String name, int id){
+        System.out.println(name + id);
+    }
+
+    public static class ConstructorTest{
+
+        public static void main(String[] args) {
+
+            JavaConstructorOverloading obj1 = new JavaConstructorOverloading("abcd");
+            JavaConstructorOverloading obj2 = new JavaConstructorOverloading("abcd",1);
+        }
     }
 
 }

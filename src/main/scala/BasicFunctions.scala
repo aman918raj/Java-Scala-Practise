@@ -1,14 +1,17 @@
+
+
 object BasicFunctions {
+
 
   def main(args:Array[String]){
 
     //Simple functions
-    def sum(lb:Int, ub:Int) = {
+    def sum(lb:Int, ub:Int): Int = {
       var total = 0
       for(i <- lb to ub){
         total += i
       }
-      total
+      return total
     }
     println(sum(1,10))
 
