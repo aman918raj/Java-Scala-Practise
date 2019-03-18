@@ -47,12 +47,14 @@ public class JavaConstructor{
             this.name = name;
             this.id = id;
         }
+
     }
 
     public static void main (String[] args){
         // this would invoke default constructor.
         NoArgument nA = new NoArgument();
         WithArgument wA = new WithArgument("Aman",1111);
+
         System.out.println(wA.id +"," +wA.name);
     }
 }

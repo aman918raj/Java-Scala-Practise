@@ -1,3 +1,5 @@
+import scala.collection.mutable
+
 object BasicCollections extends App{
 
   /*
