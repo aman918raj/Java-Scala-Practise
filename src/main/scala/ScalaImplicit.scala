@@ -1,3 +1,4 @@
+import org.apache.commons.io.FilenameUtils
 
 object ScalaImplicit {
 
@@ -20,8 +21,10 @@ object ScalaImplicit {
    */
   def main(args: Array[String]): Unit = {
 
+    /*val ext1 = FilenameUtils.getExtension("hdfs://path/to/file/foo_A_N_.dbf")
+    println(ext1)*/
     //1.
-    implicit def doubleToInt(d: Double) = d.toInt   //If we comment this line then we will get error on line no. 14
+    implicit def doubleToInt(d: Double) = d.toInt   //If we comment this line then we will get error on line no. 28
     val x: Int = 42.0
 
     //2.
@@ -43,6 +46,5 @@ object ScalaImplicit {
     println(person1.designation)
 
   }
-
 
 }

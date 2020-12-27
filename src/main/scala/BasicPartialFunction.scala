@@ -13,6 +13,7 @@ object BasicPartialFunction extends App {
     def isDefinedAt(x: Int) = x != 0
   }
 
-  divide.isDefinedAt(1)
+  val x = divide.isDefinedAt(0)
+  println(x)
   //divide.apply(0)
 }
