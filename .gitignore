@@ -14,8 +14,14 @@
 .settings/
 .worksheet/
 *.log
+!**/src/main/**/target/
+!**/src/test/**/target/
 target/*
-project
+target/
+project/
+project/*
+.bsp
+
 target/streams/*
 _SUCCESS
 dependency-reduced-pom.xml
